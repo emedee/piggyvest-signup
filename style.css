@@ -12,7 +12,6 @@ body{
 }
 .signup{
     background: white;
-    /* width: 368px; */
     width: auto;
     padding: 40px 40px 48px;
     border-radius: 1.25rem 1.25rem 1.25rem 0rem;
@@ -21,16 +20,16 @@ h5{
     margin: 0px;
     text-align: center;
     font-weight: 700;
-    font-family: U8, sans-serif;
+    font-family: 'U8', sans-serif;
     color: #083e9e;
-    font-size: 1.5rem;
+    font-size: 24px;
 }
 p{
     margin: 0px;
     font-size: .875rem;
     color: #4a5568;
     text-align: center;
-    font-family: Karla,sans-serif;
+    font-family: 'Karla', sans-serif;
 }
 .header{
     margin: 0px 0px 32px;
@@ -41,7 +40,7 @@ label{
     color: #4a5568;
     margin-bottom: .25rem;
     font-weight: 700;
-    font-family: U8,sans-serif;
+    font-family: 'U8', sans-serif;
     border: 0 solid #e2e8f0;
 }
 input{
@@ -50,17 +49,22 @@ input{
     border-radius: .25rem;
     background-color: #edf2f7;
     outline: 0;
-    font-family: inherit;
-    font-size: 100%;
+    font-family: 'U8', sans-serif;
+    font-size: 13px;
     border: none;
     width: 336px;
     margin-top: 4px;
     margin-bottom: 32px;
     overflow: visible;
 }
+option{
+    font-family: 'U8', sans-serif; 
+    color: #4a5568;
+    background-color: #edf2f7;
+}
 select{
     padding: 16px;
-    color: #1a202c;
+    color: #4a5568;
     border-radius: .25rem;
     background-color: #edf2f7;
     outline: 0;
